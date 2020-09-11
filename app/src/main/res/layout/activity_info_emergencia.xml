@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadeScrollbars="true"
+    android:isScrollContainer="true"
+    android:overScrollMode="always"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarStyle="outsideOverlay"
+    app:layout_scrollFlags="scroll">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:fadeScrollbars="true"
+            android:gravity="fill"
+            android:isScrollContainer="true"
+            android:orientation="vertical"
+            android:overScrollMode="always"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="32dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:lineSpacingExtra="12sp"
+                android:text="Emergencia"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="32dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Tipo"
+                android:textColor="#F7000000"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:animateLayoutChanges="true"
+                android:animationCache="true"
+                android:dropDownSelector="@android:drawable/ic_input_add"
+                android:gravity="center"
+                android:scrollbarTrackVertical="@android:drawable/ic_input_add"
+                android:soundEffectsEnabled="true"
+                android:spinnerMode="dropdown"
+                android:splitMotionEvents="true"
+                android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+
+                />
+
+
+            <RadioGroup
+                android:id="@+id/id_Grupo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/text_barrio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Barrio"
+                android:textColor="#F7000000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/id_barrio_e"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/text_direccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Direccion"
+                android:textColor="#F7000000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/id_direccion_e"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/text_descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Descripcion de lo que sucede"
+                android:textColor="#F7000000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/id_descripcion_e"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:autoText="false"
+                android:clickable="false"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/id_no_sitio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No estoy en el sitio" />
+
+            <TextView
+                android:id="@+id/conecto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/text_gps1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="UBICACIÓN GPS"
+                android:textColor="#F7000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/id_gps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lines="2"
+                android:text="LACTITUD 2312 "
+                android:textColor="#F7000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/conecto2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/id_boton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="50dp"
+                android:background="#C80000"
+                android:gravity="center"
+                android:letterSpacing="0.2"
+                android:padding="16dp"
+                android:text="SOLICITAR AYUDA"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom|clip_horizontal|center_horizontal"
+                android:text="BOMBEROS MADRID B31"
+                android:textColor="#000000" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

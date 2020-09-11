@@ -29,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
 
         auth = FirebaseAuth.getInstance();
         if (auth.getCurrentUser() != null) {
+            Intent pasar = new Intent(MainActivity.this,select_type.class);
+            startActivity(pasar);
+            finish();
         }
 
         setContentView(R.layout.activity_main);
@@ -71,12 +74,15 @@ public class MainActivity extends AppCompatActivity {
                                 if (!task.isSuccessful()) {
                                     // there was an error
                                     if (password.length() < 6) {
-                                        desg_password.setError(getString(R.string.incorrecta));
+                                        desg_password.setError(getString(R.string.corto));
                                     } else {
-
-                                        Toast.makeText(MainActivity.this, getString(R.string.corto), Toast.LENGTH_LONG).show();
+                                        desg_user.setError(getString(R.string.incorrecta2));
+                                        desg_password.setError(getString(R.string.incorrecta));
                                     }
                                 } else {
+                                    Intent pasar = new Intent(MainActivity.this,select_type.class);
+                                    startActivity(pasar);
+                                    finish();
                                 }
                             }
                         });

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "554766401494",
+    "firebase_url": "https://bomberosmadrid-b02bd.firebaseio.com",
+    "project_id": "bomberosmadrid-b02bd",
+    "storage_bucket": "bomberosmadrid-b02bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554766401494:android:f436367a199ecabe1a6e77",
+        "android_client_info": {
+          "package_name": "com.oasit.bomberos_seguridad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "554766401494-58n9d5c2bn2liera8b6jhrhafrpkgtd8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX4ShBCN1t_OHNh1qdYE1yotmkSIdFc4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "554766401494-58n9d5c2bn2liera8b6jhrhafrpkgtd8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

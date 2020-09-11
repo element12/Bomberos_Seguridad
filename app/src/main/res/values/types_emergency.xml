@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Tipos_incidentes">
+        <item><string>PREVENCIÓN</string></item>
+        <item><string>INCENDIO</string></item>
+        <item><string>RESCATE</string></item>
+        <item><string>MATERIALES PELIGROSOS</string></item>
+        <item><string>NATURALES</string></item>
+        <item><string>ACCIDENTES</string></item>
+    </string-array>
+    <string-array name="PREVENCION">
+        <item><string>EVENTO</string></item>
+        <item><string>REUNION</string></item>
+        <item><string>INSPECIÓN</string></item>
+        <item><string>CAPACITACIÓN</string></item>
+        <item><string>TANQUEO</string></item>
+    </string-array>
+    <string-array name="INCENDIO">
+        <item><string>INDUSTRIAL</string></item>
+        <item><string>VEHICULAR</string></item>
+        <item><string>FORESTAL</string></item>
+        <item><string>ESTRUCTURAL</string></item>
+    </string-array>
+    <string-array name="RESCATE">
+        <item><string>ANIMAL</string></item>
+        <item><string>ACUATICO</string></item>
+        <item><string>VEHICULAR</string></item>
+        <item><string>DERRUMBE</string></item>
+    </string-array>
+    <string-array name="MATPEL">
+        <item><string>ESCAPE DE GAS</string></item>
+        <item><string>DERRAME DE COMBUSTIBLE</string></item>
+        <item><string>DERRAME DE SUSTANCIA EXTRAÑA</string></item>
+        <item><string>OTRO</string></item>
+    </string-array>
+    <string-array name="NATURALES">
+        <item><string>INUNDACIÓN</string></item>
+        <item><string>AVALANCHA</string></item>
+        <item><string>CAIDA ARBOL</string></item>
+        <item><string>CORTE ARBOL</string></item>
+    </string-array>
+    <string-array name="ACCIDENTES">
+        <item><string>TRANSITO</string></item>
+        <item><string>HOGAR</string></item>
+        <item><string>INDUSTRIAL</string></item>
+        <item><string>VIA PUBLICA</string></item>
+    </string-array>
+
+
+</resources>
