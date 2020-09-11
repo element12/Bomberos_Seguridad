@@ -30,7 +30,7 @@ public class select_type extends AppCompatActivity {
             public void onClick(View v) {
                 Intent pasar = new Intent(select_type.this,info_emergencia.class);
                 startActivity(pasar);
-                finish();
+
             }
         });
         bto_solicitudes.setOnClickListener(new View.OnClickListener() {

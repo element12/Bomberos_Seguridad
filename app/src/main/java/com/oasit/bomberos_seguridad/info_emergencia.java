@@ -193,7 +193,13 @@ public class info_emergencia extends AppCompatActivity {
                 setBarrio1(id_barrio.getText().toString());
                 setDireccion1(id_direccion.getText().toString());
                 setDescripcion(id_descripcion.getText().toString());
-
+                if(getSitio_lac() == null)
+                {
+                    setSitio_lac(getGps_lac());
+                    setSitio_log(getGps_log());
+                    setLocation(Double.parseDouble(getGps_lac()),Double.parseDouble(getGps_log()));
+                }
+                ejecutarServicio("https://bomberosmadridb31.com/sql/prueba.php");
             }
         });
 
@@ -348,7 +354,7 @@ public class info_emergencia extends AppCompatActivity {
                 parametros.put("Sitio_dir",getSitio_dir());
                 parametros.put("Gps_lac",getGps_lac());
                 parametros.put("Gps_log",getGps_log());
-                parametros.put("Unidad",getUnidad());
+                parametros.put("Unidad","Prueba");
                 return parametros;
             }
         };
